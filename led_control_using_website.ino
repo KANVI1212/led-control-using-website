@@ -50,8 +50,7 @@ void loop()
       digitalWrite(led2, LOW);
     }
   }
-  client.println("Content-Type: text/html");
-  client.println("");
+
   client.println("<!DOCTYPE HTML>");
   client.println("<html>");
   client.println("<h1>Welcome to the Webpage!</h1>");
